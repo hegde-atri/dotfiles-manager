@@ -1,0 +1,5 @@
+#+title: Dotfiles-manager
+#+author: Atri Hegde
+#+description: A dotfiles manager written in Go-lang using the BubbleTea framework
+
+Your favourite new dotfiles manager!
