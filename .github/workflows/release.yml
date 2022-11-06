@@ -11,7 +11,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         GOOS: darwin
-        GOARCH: amd64
+        GOARCH: arm64
     - name: windows build
       uses: shoukoo/golang-pipeline/go1.19/release@master
       if: github.event.action == 'published'
